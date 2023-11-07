@@ -8,6 +8,7 @@ import {
     html,
     css,
     reactjs,
+    software,
     redux,
     tailwind,
     nodejs,
@@ -47,7 +48,7 @@ import {
     },
     {
       title: "Software Engineer",
-      icon: mobile,
+      icon: software,
     },
     {
       title: "Backend Developer",
