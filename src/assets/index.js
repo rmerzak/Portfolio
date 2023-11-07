@@ -44,6 +44,7 @@ import cplus from "./tech/c++.png";
 import c from "./tech/c.png";
 import skills from "./skills.png";
 import attijari from "./attijari.png";
+import inception from "./inception.png";
 export {
   attijari,
   logo,
@@ -89,4 +90,5 @@ export {
   batch,
   cplus,
   c,
+  inception,
 };

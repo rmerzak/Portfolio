@@ -26,6 +26,7 @@ import {
     cplus,
     c,
     attijari,
+    inception,
   } from "../assets";
   
   export const navLinks = [
@@ -209,7 +210,7 @@ import {
     {
       name: "Skills Center",
       description:
-        "Skill Center is a cutting-edge platform designed to revolutionize how sports enthusiasts connect, participate, and enjoy their favorite activities. It serves as your all-in-one solution for managing and participating in sports events, whether it's tennis, football, or other sports..",
+        "Skill Center is a cutting-edge platform revolutionizing the way sports enthusiasts connect, organize, and enjoy sports events, whether it's tennis, football, or other sports. It offers a one-stop solution for managing events, finding fellow enthusiasts, and accessing training resources.",
       tags: [
         {
           name: "react",
@@ -253,24 +254,24 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Inception",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "Inception is a project that establishes a Docker-based infrastructure within a virtual machine. It entails running services in dedicated containers, crafting custom Docker images using Alpine or Debian, and orchestrating components like NGINX, WordPress, MariaDB containers, and data storage volumes all interconnected via a Docker network.",
       tags: [
         {
-          name: "nextjs",
+          name: "Docker",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "MariaDB",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "WordPress",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: inception,
       source_code_link: "https://github.com/",
     },
   ];
