@@ -1,29 +1,32 @@
 import {
-    mobile,
     backend,
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
     software,
-    redux,
     tailwind,
     nodejs,
-    mongodb,
     git,
-    figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
+    awb,
     carrent,
     jobit,
     tripguide,
-    threejs,
+    unchain,
+    webmastry,
+    apt,
+    angular,
+    uml,
+    oracle,
+    sql,
+    springBoot,
+    java,
+    batch,
+    cplus,
+    c,
   } from "../assets";
   
   export const navLinks = [
@@ -62,6 +65,39 @@ import {
   
   const technologies = [
     {
+      name: "C",
+      icon: c,
+    },
+    {
+      name: "C++",
+      icon: cplus,
+    },
+    {
+      name: "Java",
+      icon: java,
+    },
+    {
+      name: "SpringBoot",
+      icon: springBoot,
+    },
+
+    {
+      name: "SpringBatch",
+      icon: batch,
+    },
+    {
+      name: "JavaScript",
+      icon: javascript,
+    },
+    {
+      name: "React JS",
+      icon: reactjs,
+    },
+    {
+      name: "Angular",
+      icon: angular,
+    },
+    {
       name: "HTML 5",
       icon: html,
     },
@@ -70,102 +106,86 @@ import {
       icon: css,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
-    },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
-      name: "Three JS",
-      icon: threejs,
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
-    },
-    {
       name: "docker",
       icon: docker,
     },
+
+    {
+      name: "Uml",
+      icon: uml,
+    },
+    {
+      name: "Oracle",
+      icon: oracle,
+    },
+    {
+      name: "Mysql",
+      icon: sql,
+    },
+
+
+
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Frontend Developer Intern",
+      company_name: "Webmastry",
+      icon: webmastry,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Jun 2021 - April 2021",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
+        "Implementing responsive design.",
+        ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Blockchain Developer Intern",
+      company_name: "Unchain",
+      icon: unchain,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Jul 2022 - Sep 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Create and sign transactions and their visual representations for the public.",
+        "Estimate the costs of ZKP (Zero-Knowledge Proof) transfers and maintain a client.",
+        "Develop smart contracts with Solidity and optimize them.",
+        "Write circuits with Circom, generate proofs, and verify them using snark.js.",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
+      title: "Web Developer Intern",
+      company_name: "Apitech",
+      icon: apt,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "Oct 2022 - Jan 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
+        "Setting up telephone bridges on the Jitsi video conferencing solution.",
+        "Developing a user portal for the Voxify project.",
+        "Performing 'Create, read, update, and delete' operations on users, organizations, and phone channels.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
+      title: "Full stack Developer Intern",
+      company_name: "attijariwafa bank",
+      icon: awb,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Feb 2023 - Sep 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Development of a bank account statement calculation engine.",
+        "Development of an innovative platform for efficient financial data consultation and analysis.",
+        "Thoroughly test and validate the solution to ensure its compliance with the company's requirements in terms of accuracy and speed.",
+        "Develop and implement a suitable database system to store the results of interest calculations.",
+        "Active participation in agile meetings and a commitment to respecting the agile methodology."
       ],
     },
   ];

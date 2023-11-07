@@ -29,7 +29,19 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import awb from "./company/awb.png";
+import apt from "./company/apt.png";
+import unchain from "./company/unchain.png";
+import webmastry from "./company/webmatry.png";
+import angular from "./tech/angular.png";
+import uml from "./tech/uml.png";
+import oracle from "./tech/oracle.png";
+import sql from "./tech/sql.png";
+import springBoot from "./tech/spring.png";
+import java from "./tech/java.png";
+import batch from "./tech/batch.png";
+import cplus from "./tech/c++.png";
+import c from "./tech/c.png";
 export {
   logo,
   backend,
@@ -60,4 +72,17 @@ export {
   jobit,
   tripguide,
   software,
+  awb,
+  unchain,
+  apt,
+  webmastry,
+  angular,
+  uml,
+  oracle,
+  sql,
+  springBoot,
+  java,
+  batch,
+  cplus,
+  c,
 };
