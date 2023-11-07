@@ -42,7 +42,10 @@ import java from "./tech/java.png";
 import batch from "./tech/batch.png";
 import cplus from "./tech/c++.png";
 import c from "./tech/c.png";
+import skills from "./skills.png";
+import attijari from "./attijari.png";
 export {
+  attijari,
   logo,
   backend,
   creator,
@@ -56,6 +59,7 @@ export {
   figma,
   git,
   html,
+  skills,
   javascript,
   mongodb,
   nodejs,

@@ -28,7 +28,6 @@ const About = () => {
     I am a design and development engineer with a state diploma in computer science. I am passionate about software development and new technologies.
     I am constantly on the lookout for new opportunities to expand my knowledge and contribute to the field of computer science by working on projects related to the development, maintenance, and enhancement of information systems.
     I have the ability to analyze, design, and develop information systems while maintaining a high level of customer satisfaction.
-    <br /> My specialties include: C++, Java, Spring Boot, JavaScript, ReactJs, Angular and Docker.
     </motion.p>
     <div className='mt-20 flex flex-wrap gap-10'>
       {

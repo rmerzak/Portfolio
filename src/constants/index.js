@@ -3,12 +3,9 @@ import {
     creator,
     web,
     javascript,
-    html,
-    css,
     reactjs,
     software,
     tailwind,
-    nodejs,
     git,
     docker,
     awb,
@@ -25,8 +22,10 @@ import {
     springBoot,
     java,
     batch,
+    skills,
     cplus,
     c,
+    attijari,
   } from "../assets";
   
   export const navLinks = [
@@ -122,9 +121,6 @@ import {
       name: "Mysql",
       icon: sql,
     },
-
-
-
   ];
   
   const experiences = [
@@ -211,45 +207,49 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Skills Center",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Skill Center is a cutting-edge platform designed to revolutionize how sports enthusiasts connect, participate, and enjoy their favorite activities. It serves as your all-in-one solution for managing and participating in sports events, whether it's tennis, football, or other sports..",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name: "tailwind",
+          name: "css",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: skills,
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Attijari Account Statement ",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Attijari Account Statement redefines precision and efficiency in banking by automating interest calculations for account statements. It empowers financial professionals with automated calculations based on balance, duration, and rates.",
       tags: [
         {
-          name: "react",
+          name: "SpringBatch",
           color: "blue-text-gradient",
+        },
+        {
+          name: "SpringBoot",
+          color: "pink-text-gradient",
+        },
+        {
+          name:"Oracle",
+          color:"orange-text-gradient",
+        },
+        {
+          name: "react",
+          color: "purple-text-gradient",
         },
         {
           name: "restapi",
           color: "green-text-gradient",
         },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
       ],
-      image: jobit,
+      image: attijari,
       source_code_link: "https://github.com/",
     },
     {
