@@ -98,14 +98,6 @@ import {
       icon: angular,
     },
     {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
