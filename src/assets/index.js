@@ -35,7 +35,7 @@ import unchain from "./company/unchain.png";
 import webmastry from "./company/webmatry.png";
 import angular from "./tech/angular.png";
 import uml from "./tech/uml.png";
-import oracle from "./tech/oracle.png";
+import oracle from "./tech/ora.png";
 import sql from "./tech/sql.png";
 import springBoot from "./tech/spring.png";
 import java from "./tech/java.png";
