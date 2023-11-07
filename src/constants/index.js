@@ -27,6 +27,9 @@ import {
     c,
     attijari,
     inception,
+    irc,
+    trans,
+    zk,
   } from "../assets";
   
   export const navLinks = [
@@ -272,6 +275,81 @@ import {
         },
       ],
       image: inception,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Internet Relay Chat",
+      description:
+        "ft_irc is a group project that involves creating an IRC server from scratch using C++. The server adheres to RFC 2812 specifications, making it compatible with existing IRC clients.",
+      tags: [
+        {
+          name: "C++",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "C",
+          color: "green-text-gradient",
+        },
+        {
+          name: "networking",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: irc,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "ft_transcendence",
+      description:
+        "A Single Page App where authenticated users engage in real-time 'Pong' competitions, with the added capabilities of chatting with friends, joining channels, monitoring game statistics, and much more.",
+      tags: [
+        {
+          name: "AngularJs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "NestJs",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Websockets",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "2FA",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: trans,
+      source_code_link: "https://github.com/",
+    },
+    {
+      name: "Zksudoku",
+      description:
+        "zkSudoku is an innovative platform that enables users to engage in zero-knowledge Sudoku games by connecting their Metamask wallet, all while preserving their privacy. With zkSudoku, you can start playing without disclosing any personal data.",
+      tags: [
+        {
+          name: "Solidity",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ETHERS.JS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "WEB3.JS",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "CIRCOM",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "SNARK.JS",
+          color: "red-text-gradient",
+        },
+      ],
+      image: zk,
       source_code_link: "https://github.com/",
     },
   ];

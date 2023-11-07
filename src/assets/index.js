@@ -45,6 +45,9 @@ import c from "./tech/c.png";
 import skills from "./skills.png";
 import attijari from "./attijari.png";
 import inception from "./inception.png";
+import irc from "./irc.png";
+import trans from "./trans.png";
+import zk from "./zk-sudoku.png";
 export {
   attijari,
   logo,
@@ -91,4 +94,7 @@ export {
   cplus,
   c,
   inception,
+  irc,
+  trans,
+  zk,
 };
