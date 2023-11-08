@@ -83,15 +83,10 @@ import {
       name: "SpringBoot",
       icon: springBoot,
     },
-
-    {
-      name: "SpringBatch",
-      icon: batch,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
+    // {
+    //   name: "JavaScript",
+    //   icon: javascript,
+    // },
     {
       name: "React JS",
       icon: reactjs,
@@ -99,14 +94,6 @@ import {
     {
       name: "Angular",
       icon: angular,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
-      name: "git",
-      icon: git,
     },
     {
       name: "docker",
