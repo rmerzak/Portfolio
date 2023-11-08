@@ -171,28 +171,25 @@ import {
   
   const testimonials = [
     {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      testimonial: "I was genuinely impressed by Rabi's coding skills and his invaluable contributions to our project. Rabi proved to be exceptionally talented.",
+      name: "Youssef Bassou",
+      designation: "Software Engineer",
+      company: "AWB",
+      image: "https://media.licdn.com/dms/image/C4E03AQHhfTBY4G76vw/profile-displayphoto-shrink_400_400/0/1647037938719?e=1704931200&v=beta&t=eBWLutTRpkRvKPBQuEKiCLqL9xmL9cRxpgImdCdU16s",
     },
     {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
+      testimonial: "It was an absolute pleasure working with Rabi, and I am confident that he will continue to excel in all of his future professional endeavors.",
+      name: "Mohamed Y. KHALID",
       designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      company: "WebMastry",
+      image: "https://media.licdn.com/dms/image/D4E03AQGM_CafMoqNBQ/profile-displayphoto-shrink_400_400/0/1698926150562?e=1704931200&v=beta&t=wys1gRjqo9YhgFyvWPd5A-5nHjJiwyNHml1MocXH_GA",
     },
     {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      testimonial: "His positive attitude, flexibility, and willingness to learn and adapt to new challenges made him a valuable asset to our project.",
+      name: "Hamza KHAIT",
+      designation: "DevOps Engineer",
+      company: "Apitech",
+      image: "https://media.licdn.com/dms/image/D4D03AQFKGelnJm37OA/profile-displayphoto-shrink_200_200/0/1688415992893?e=2147483647&v=beta&t=k4b_TQ4PFTwzsEmySS8PfesmUCo5Md9kTnHN0rJwgV4",
     },
   ];
   

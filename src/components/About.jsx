@@ -5,6 +5,8 @@ import {styles} from '../styles'
 import { services } from '../constants'
 import { fadeIn,textVariant } from '../utils/motions'
 import SectionWrapper from '../hoc/SectionWrapper'
+
+
 const ServiceCard = ({index,title,icon}) => {
   return(
     <Tilt className="xs:w-[250px] w-full">
