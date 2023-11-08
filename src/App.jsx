@@ -8,9 +8,7 @@ import { Hero,
   Works,
   Feedbacks,
   Contact,
-  EarthCanvas, 
-  BallCanvas, 
-  ComputersCanvas, 
+  Education,
   StarsCanvas } from './components'
 
 function App() {
@@ -23,6 +21,7 @@ function App() {
         <Hero />
       </div>
       <About/>
+      <Education />
       <Experience />
       <Tech />
       <Works />

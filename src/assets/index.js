@@ -48,6 +48,9 @@ import inception from "./inception.png";
 import irc from "./irc.png";
 import trans from "./trans.png";
 import zk from "./zk-sudoku.png";
+import ensa from "./ensa.png";
+import leet from "./leet.png";
+import juillet from "./juillet.png";
 export {
   attijari,
   logo,
@@ -97,4 +100,7 @@ export {
   irc,
   trans,
   zk,
+  ensa,
+  leet,
+  juillet,
 };

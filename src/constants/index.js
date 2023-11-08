@@ -30,6 +30,9 @@ import {
     irc,
     trans,
     zk,
+    ensa,
+    leet,
+    juillet,
   } from "../assets";
   
   export const navLinks = [
@@ -38,8 +41,16 @@ import {
       title: "About",
     },
     {
+      id: "education",
+      title: "Education",
+    },
+    {
+      id: "experience",
+      title: "Experience",
+    },
+    {
       id: "work",
-      title: "Work",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -113,7 +124,29 @@ import {
       icon: sql,
     },
   ];
-  
+  const educations = [
+    {
+      title: "Bachelor's Degree In Physical Science",
+      school_name: "Lycee Qualifiant 30 Juillet",
+      icon: juillet,
+      iconBg: "#ffff",
+      date: "2017 - 2018",
+    },
+    {
+      title: "State Engineer in Computer Engineering",
+      school_name: "National school of applied sciences of khouribgha",
+      icon: ensa,
+      iconBg: "#ffff",
+      date: "2018 - 2023",
+    },
+    {
+      title: "Certificate in Digital Technology Architecture",
+      school_name: "1337 CODING SCHOOL Um6p - 42 network",
+      icon: leet,
+      iconBg: "#ffff",
+      date: "2021 - Current",
+    },
+];
   const experiences = [
     {
       title: "Frontend Developer Intern",
@@ -259,7 +292,7 @@ import {
         },
       ],
       image: inception,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/rmerzak/Inception",
     },
     {
       name: "Internet Relay Chat",
@@ -280,7 +313,7 @@ import {
         },
       ],
       image: irc,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/rmerzak/ft_irc_48",
     },
     {
       name: "ft_transcendence",
@@ -305,7 +338,7 @@ import {
         },
       ],
       image: trans,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/rmerzak/ft_transcendence",
     },
     {
       name: "Zksudoku",
@@ -334,8 +367,8 @@ import {
         },
       ],
       image: zk,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/rmerzak/Zksudoku",
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, educations };
