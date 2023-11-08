@@ -27,9 +27,7 @@ const About = () => {
       <h2 className={styles.heroHeadText}>Overview.</h2>
     </motion.div>
     <motion.p variants={fadeIn("","",0.1,1)} className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-    I am a design and development engineer with a state diploma in computer science. I am passionate about software development and new technologies.
-    I am constantly on the lookout for new opportunities to expand my knowledge and contribute to the field of computer science by working on projects related to the development, maintenance, and enhancement of information systems.
-    I have the ability to analyze, design, and develop information systems while maintaining a high level of customer satisfaction.
+    I am a computer science engineer with a strong background in design and development. Passionate about software development and emerging technologies, I continuously seek opportunities to expand my expertise. My focus lies in enhancing information systems through analysis, design, and development, all while prioritizing customer satisfaction.
     </motion.p>
     <div className='mt-20 flex flex-wrap gap-10'>
       {
