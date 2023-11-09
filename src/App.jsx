@@ -27,8 +27,8 @@ function App() {
       <Works />
       <Feedbacks />
       <div className="relative z-0">
-        <Contact />
         <StarsCanvas />
+        <Contact />
       </div>
     </div>
     </BrowserRouter>
