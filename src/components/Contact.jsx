@@ -50,15 +50,15 @@ const Contact = () => {
         <form ref={formRef} onSubmit={handelSubmit} className='mt-12 flex flex-col gap-8'>
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your name</span>
-            <input type="text" name='name' value={form.name} onChange={handelChange} placeholder='What`s your name?' className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'/>
+            <input type="text" name='name' value={form.name} onChange={handelChange} placeholder='What`s your name?' required className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'/>
           </label>
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Email</span>
-            <input type="email" name='email' value={form.email} onChange={handelChange} placeholder='What`s your email?' className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'/>
+            <input type="email" name='email' value={form.email} onChange={handelChange} placeholder='What`s your email?'required  className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'/>
           </label>
           <label className='flex flex-col'>
             <span className='text-white font-medium mb-4'>Your Message</span>
-            <textarea type="text" rows='7' name='message' value={form.message} onChange={handelChange} placeholder='what do you want to say?' className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'/>
+            <textarea type="text" rows='7' name='message' value={form.message} onChange={handelChange} placeholder='what do you want to say?' required className='bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium'/>
           </label>
           <button type='submit' className='bg-tertiary py-3 px-8 outline-none font-bold text-white w-fit shadow-md shadow-primary rouded-xl '>
             Send </button>
