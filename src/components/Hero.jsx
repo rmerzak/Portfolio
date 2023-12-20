@@ -18,7 +18,7 @@ const Hero = () => {
         </div>
       </div>
       <div className=' inset-0 flex justify-center items-center'>
-        <img src='/giphy.gif' alt='hero' className='h-[100%] w-[100%]' />
+        <img src='/bg.jpeg' alt='hero' className='h-[100%] w-[100%]' />
         </div>
           {/* <MarsCanvas /> */}
       {/* <StarsCanvas /> */}
